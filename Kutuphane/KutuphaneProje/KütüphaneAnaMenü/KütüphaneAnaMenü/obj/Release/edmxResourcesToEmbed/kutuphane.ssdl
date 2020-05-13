@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kutuphaneModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Emanet">
+    <Key>
+      <PropertyRef Name="emanet_refno" />
+    </Key>
+    <Property Name="emanet_refno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="isim" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="numara" Type="int" Nullable="false" />
+    <Property Name="barkod_no" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="kitap_adi" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="kitap_yazari" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="baslangic_tarihi" Type="date" Nullable="false" />
+    <Property Name="teslim_tarihi" Type="date" />
+    <Property Name="hasar_durumu" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="kategori_id" />
+    </Key>
+    <Property Name="kategori_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kategori" Type="nvarchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kitap">
+    <Key>
+      <PropertyRef Name="barkod_id" />
+    </Key>
+    <Property Name="barkod_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="kitap_adi" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="yazar_adi" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="yayin_evi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="kitap_turu" Type="int" Nullable="false" />
+    <Property Name="yayin_yili" Type="nchar" MaxLength="200" />
+    <Property Name="olusturulma_tarihi" Type="date" />
+    <Property Name="stok_sayisi" Type="int" />
+  </EntityType>
+  <EntityType Name="OkuyucuBilgisi">
+    <Key>
+      <PropertyRef Name="Okuyucu_Refno" />
+    </Key>
+    <Property Name="Okuyucu_Refno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tckimlik" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adi_Soyadi" Type="nvarchar" MaxLength="150" />
+    <Property Name="Sinifi" Type="nvarchar" MaxLength="10" />
+    <Property Name="Nosu" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dogum_Tarihi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dogum_Yeri" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Eposta" Type="nvarchar" MaxLength="50" />
+    <Property Name="uyelik_Tarihi" Type="date" />
+    <Property Name="Cinsiyet" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="250" />
+    <Property Name="Emanet_Sayisi" Type="int" />
+  </EntityType>
+  <EntityType Name="Teslim">
+    <Key>
+      <PropertyRef Name="teslim_id" />
+    </Key>
+    <Property Name="teslim_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kitap_adi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="hasar_durumu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="okuyucu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="teslim_tarihi" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="kutuphaneModelStoreContainer">
+    <EntitySet Name="Emanet" EntityType="Self.Emanet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kategori" EntityType="Self.Kategori" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kitap" EntityType="Self.Kitap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OkuyucuBilgisi" EntityType="Self.OkuyucuBilgisi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Teslim" EntityType="Self.Teslim" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

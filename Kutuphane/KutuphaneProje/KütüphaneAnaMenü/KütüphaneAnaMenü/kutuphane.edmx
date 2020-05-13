@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="kutuphaneModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Emanet">
+          <Key>
+            <PropertyRef Name="emanet_refno" />
+          </Key>
+          <Property Name="emanet_refno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="isim" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="numara" Type="int" Nullable="false" />
+          <Property Name="barkod_no" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="kitap_adi" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="kitap_yazari" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="baslangic_tarihi" Type="date" Nullable="false" />
+          <Property Name="teslim_tarihi" Type="date" />
+          <Property Name="hasar_durumu" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Kategori">
+          <Key>
+            <PropertyRef Name="kategori_id" />
+          </Key>
+          <Property Name="kategori_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kategori" Type="nvarchar" MaxLength="150" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kitap">
+          <Key>
+            <PropertyRef Name="barkod_id" />
+          </Key>
+          <Property Name="barkod_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="kitap_adi" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="yazar_adi" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="yayin_evi" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="kitap_turu" Type="int" Nullable="false" />
+          <Property Name="yayin_yili" Type="nchar" MaxLength="200" />
+          <Property Name="olusturulma_tarihi" Type="date" />
+          <Property Name="stok_sayisi" Type="int" />
+        </EntityType>
+        <EntityType Name="OkuyucuBilgisi">
+          <Key>
+            <PropertyRef Name="Okuyucu_Refno" />
+          </Key>
+          <Property Name="Okuyucu_Refno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Tckimlik" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adi_Soyadi" Type="nvarchar" MaxLength="150" />
+          <Property Name="Sinifi" Type="nvarchar" MaxLength="10" />
+          <Property Name="Nosu" Type="nvarchar" MaxLength="50" />
+          <Property Name="Dogum_Tarihi" Type="nvarchar" MaxLength="50" />
+          <Property Name="Dogum_Yeri" Type="nvarchar" MaxLength="50" />
+          <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+          <Property Name="Eposta" Type="nvarchar" MaxLength="50" />
+          <Property Name="uyelik_Tarihi" Type="date" />
+          <Property Name="Cinsiyet" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="250" />
+          <Property Name="Emanet_Sayisi" Type="int" />
+        </EntityType>
+        <EntityType Name="Teslim">
+          <Key>
+            <PropertyRef Name="teslim_id" />
+          </Key>
+          <Property Name="teslim_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kitap_adi" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="hasar_durumu" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="okuyucu" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="teslim_tarihi" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="kutuphaneModelStoreContainer">
+          <EntitySet Name="Emanet" EntityType="Self.Emanet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kategori" EntityType="Self.Kategori" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kitap" EntityType="Self.Kitap" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OkuyucuBilgisi" EntityType="Self.OkuyucuBilgisi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teslim" EntityType="Self.Teslim" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="kutuphaneModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="kutuphaneEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Emanet" EntityType="kutuphaneModel.Emanet" />
+          <EntitySet Name="Kategori" EntityType="kutuphaneModel.Kategori" />
+          <EntitySet Name="Kitap" EntityType="kutuphaneModel.Kitap" />
+          <EntitySet Name="OkuyucuBilgisi" EntityType="kutuphaneModel.OkuyucuBilgisi" />
+          <EntitySet Name="Teslim" EntityType="kutuphaneModel.Teslim" />
+        </EntityContainer>
+        <EntityType Name="Emanet">
+          <Key>
+            <PropertyRef Name="emanet_refno" />
+          </Key>
+          <Property Name="emanet_refno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="isim" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="numara" Type="Int32" Nullable="false" />
+          <Property Name="barkod_no" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="kitap_adi" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="kitap_yazari" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="baslangic_tarihi" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="teslim_tarihi" Type="DateTime" Precision="0" />
+          <Property Name="hasar_durumu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Kategori">
+          <Key>
+            <PropertyRef Name="kategori_id" />
+          </Key>
+          <Property Name="kategori_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kategori1" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Kitap">
+          <Key>
+            <PropertyRef Name="barkod_id" />
+          </Key>
+          <Property Name="barkod_id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="kitap_adi" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="yazar_adi" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="yayin_evi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="kitap_turu" Type="Int32" Nullable="false" />
+          <Property Name="yayin_yili" Type="String" MaxLength="200" FixedLength="true" Unicode="true" />
+          <Property Name="olusturulma_tarihi" Type="DateTime" Precision="0" />
+          <Property Name="stok_sayisi" Type="Int32" />
+        </EntityType>
+        <EntityType Name="OkuyucuBilgisi">
+          <Key>
+            <PropertyRef Name="Okuyucu_Refno" />
+          </Key>
+          <Property Name="Okuyucu_Refno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Tckimlik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adi_Soyadi" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Sinifi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Nosu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Dogum_Tarihi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Dogum_Yeri" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Eposta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="uyelik_Tarihi" Type="DateTime" Precision="0" />
+          <Property Name="Cinsiyet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adres" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Emanet_Sayisi" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Teslim">
+          <Key>
+            <PropertyRef Name="teslim_id" />
+          </Key>
+          <Property Name="teslim_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kitap_adi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="hasar_durumu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="okuyucu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="teslim_tarihi" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="kutuphaneModelStoreContainer" CdmEntityContainer="kutuphaneEntities">
+          <EntitySetMapping Name="Emanet">
+            <EntityTypeMapping TypeName="kutuphaneModel.Emanet">
+              <MappingFragment StoreEntitySet="Emanet">
+                <ScalarProperty Name="hasar_durumu" ColumnName="hasar_durumu" />
+                <ScalarProperty Name="teslim_tarihi" ColumnName="teslim_tarihi" />
+                <ScalarProperty Name="baslangic_tarihi" ColumnName="baslangic_tarihi" />
+                <ScalarProperty Name="kitap_yazari" ColumnName="kitap_yazari" />
+                <ScalarProperty Name="kitap_adi" ColumnName="kitap_adi" />
+                <ScalarProperty Name="barkod_no" ColumnName="barkod_no" />
+                <ScalarProperty Name="numara" ColumnName="numara" />
+                <ScalarProperty Name="isim" ColumnName="isim" />
+                <ScalarProperty Name="emanet_refno" ColumnName="emanet_refno" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kategori">
+            <EntityTypeMapping TypeName="kutuphaneModel.Kategori">
+              <MappingFragment StoreEntitySet="Kategori">
+                <ScalarProperty Name="kategori1" ColumnName="kategori" />
+                <ScalarProperty Name="kategori_id" ColumnName="kategori_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kitap">
+            <EntityTypeMapping TypeName="kutuphaneModel.Kitap">
+              <MappingFragment StoreEntitySet="Kitap">
+                <ScalarProperty Name="stok_sayisi" ColumnName="stok_sayisi" />
+                <ScalarProperty Name="olusturulma_tarihi" ColumnName="olusturulma_tarihi" />
+                <ScalarProperty Name="yayin_yili" ColumnName="yayin_yili" />
+                <ScalarProperty Name="kitap_turu" ColumnName="kitap_turu" />
+                <ScalarProperty Name="yayin_evi" ColumnName="yayin_evi" />
+                <ScalarProperty Name="yazar_adi" ColumnName="yazar_adi" />
+                <ScalarProperty Name="kitap_adi" ColumnName="kitap_adi" />
+                <ScalarProperty Name="barkod_id" ColumnName="barkod_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OkuyucuBilgisi">
+            <EntityTypeMapping TypeName="kutuphaneModel.OkuyucuBilgisi">
+              <MappingFragment StoreEntitySet="OkuyucuBilgisi">
+                <ScalarProperty Name="Emanet_Sayisi" ColumnName="Emanet_Sayisi" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+                <ScalarProperty Name="uyelik_Tarihi" ColumnName="uyelik_Tarihi" />
+                <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Dogum_Yeri" ColumnName="Dogum_Yeri" />
+                <ScalarProperty Name="Dogum_Tarihi" ColumnName="Dogum_Tarihi" />
+                <ScalarProperty Name="Nosu" ColumnName="Nosu" />
+                <ScalarProperty Name="Sinifi" ColumnName="Sinifi" />
+                <ScalarProperty Name="Adi_Soyadi" ColumnName="Adi_Soyadi" />
+                <ScalarProperty Name="Tckimlik" ColumnName="Tckimlik" />
+                <ScalarProperty Name="Okuyucu_Refno" ColumnName="Okuyucu_Refno" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teslim">
+            <EntityTypeMapping TypeName="kutuphaneModel.Teslim">
+              <MappingFragment StoreEntitySet="Teslim">
+                <ScalarProperty Name="teslim_tarihi" ColumnName="teslim_tarihi" />
+                <ScalarProperty Name="okuyucu" ColumnName="okuyucu" />
+                <ScalarProperty Name="hasar_durumu" ColumnName="hasar_durumu" />
+                <ScalarProperty Name="kitap_adi" ColumnName="kitap_adi" />
+                <ScalarProperty Name="teslim_id" ColumnName="teslim_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

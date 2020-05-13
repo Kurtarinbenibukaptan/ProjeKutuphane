@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kutuphaneModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="kutuphaneEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Emanet" EntityType="kutuphaneModel.Emanet" />
+    <EntitySet Name="Kategori" EntityType="kutuphaneModel.Kategori" />
+    <EntitySet Name="Kitap" EntityType="kutuphaneModel.Kitap" />
+    <EntitySet Name="OkuyucuBilgisi" EntityType="kutuphaneModel.OkuyucuBilgisi" />
+    <EntitySet Name="Teslim" EntityType="kutuphaneModel.Teslim" />
+  </EntityContainer>
+  <EntityType Name="Emanet">
+    <Key>
+      <PropertyRef Name="emanet_refno" />
+    </Key>
+    <Property Name="emanet_refno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="isim" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="numara" Type="Int32" Nullable="false" />
+    <Property Name="barkod_no" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="kitap_adi" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="kitap_yazari" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="baslangic_tarihi" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="teslim_tarihi" Type="DateTime" Precision="0" />
+    <Property Name="hasar_durumu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="kategori_id" />
+    </Key>
+    <Property Name="kategori_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kategori1" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Kitap">
+    <Key>
+      <PropertyRef Name="barkod_id" />
+    </Key>
+    <Property Name="barkod_id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kitap_adi" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="yazar_adi" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="yayin_evi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kitap_turu" Type="Int32" Nullable="false" />
+    <Property Name="yayin_yili" Type="String" MaxLength="200" FixedLength="true" Unicode="true" />
+    <Property Name="olusturulma_tarihi" Type="DateTime" Precision="0" />
+    <Property Name="stok_sayisi" Type="Int32" />
+  </EntityType>
+  <EntityType Name="OkuyucuBilgisi">
+    <Key>
+      <PropertyRef Name="Okuyucu_Refno" />
+    </Key>
+    <Property Name="Okuyucu_Refno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tckimlik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adi_Soyadi" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Sinifi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Nosu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dogum_Tarihi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dogum_Yeri" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Eposta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="uyelik_Tarihi" Type="DateTime" Precision="0" />
+    <Property Name="Cinsiyet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Emanet_Sayisi" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Teslim">
+    <Key>
+      <PropertyRef Name="teslim_id" />
+    </Key>
+    <Property Name="teslim_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kitap_adi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hasar_durumu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="okuyucu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="teslim_tarihi" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>

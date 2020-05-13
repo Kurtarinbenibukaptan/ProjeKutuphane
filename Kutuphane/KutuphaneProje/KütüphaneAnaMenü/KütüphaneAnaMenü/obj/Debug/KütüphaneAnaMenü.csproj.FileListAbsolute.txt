@@ -1,0 +1,162 @@
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe.config
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.pdb
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csprojResolveAssemblyReference.cache
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Anamenu.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Properties.Resources.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.GenerateResource.Cache
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.CoreCompileInputs.cache
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.pdb
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitapkayit.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyucukayit.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.dll
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.xml
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane.mdf
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane_log.ldf
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_Okuyucular.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_kitapListesi.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Ödünç_Listesi.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.dll
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.xml
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.kitaplistesi_ciktial.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyuculistesi_ciktial.resources
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.dll
+C:\Users\EmreKaptan\source\repos\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.xml
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane.mdf
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane_log.ldf
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe.config
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.pdb
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.dll
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.dll
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.dll
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.xml
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.xml
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.xml
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csprojResolveAssemblyReference.cache
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.kitaplistesi_ciktial.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Anamenu.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_Okuyucular.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitapkayit.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_kitapListesi.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyucukayit.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyuculistesi_ciktial.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Properties.Resources.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Ödünç_Listesi.resources
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.GenerateResource.Cache
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.CoreCompileInputs.cache
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\Desktop\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.pdb
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane.mdf
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane_log.ldf
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe.config
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.pdb
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csprojResolveAssemblyReference.cache
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.kitaplistesi_ciktial.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Anamenu.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_Okuyucular.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitapkayit.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_kitapListesi.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyucukayit.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyuculistesi_ciktial.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Properties.Resources.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Ödünç_Listesi.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.GenerateResource.Cache
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.CoreCompileInputs.cache
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.pdb
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane.mdf
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane_log.ldf
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe.config
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.pdb
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.dll
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.xml
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csprojResolveAssemblyReference.cache
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.kitaplistesi_ciktial.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Anamenu.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_Okuyucular.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitapkayit.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_kitapListesi.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyucukayit.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyuculistesi_ciktial.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Properties.Resources.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Ödünç_Listesi.resources
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.GenerateResource.Cache
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.CoreCompileInputs.cache
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.exe
+C:\Users\EmreKaptan\Desktop\Yeni klasör (2)\En En En Önemli Proje bu\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.pdb
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane.mdf
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane_log.ldf
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe.config
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.pdb
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.dll
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.dll
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.dll
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.dll
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.xml
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.xml
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.xml
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.xml
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csprojAssemblyReference.cache
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitaplistesi_ciktial.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Anamenu.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_Okuyucular.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitapkayit.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Form_kitapListesi.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyucukayit.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyuculistesi_ciktial.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Properties.Resources.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Ödünç_Listesi.resources
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.GenerateResource.cache
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.CopyComplete
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.exe
+C:\B191200301-EmrecanGuzelaydin\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.pdb
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane.mdf
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\Kutuphane_log.ldf
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe.config
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.exe
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\KütüphaneAnaMenü.pdb
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.dll
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.dll
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.dll
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.xml
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\itextsharp.xml
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\bin\Debug\PagedList.xml
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csprojAssemblyReference.cache
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitaplistesi_ciktial.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Anamenu.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.form_Okuyucular.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Kitapkayit.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Form_kitapListesi.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyucukayit.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Okuyuculistesi_ciktial.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Properties.Resources.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.Ödünç_Listesi.resources
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.GenerateResource.cache
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.csproj.CopyComplete
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.exe
+C:\Users\emrec\Documents\GitHub\ProjeKutuphane\Kutuphane\KutuphaneProje\KütüphaneAnaMenü\KütüphaneAnaMenü\obj\Debug\KütüphaneAnaMenü.pdb
